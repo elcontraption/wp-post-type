@@ -1,0 +1,21 @@
+{
+    "name": "elcontraption/wp-post-type",
+    "description": "A WordPress custom post type creator class.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darin Reid",
+            "email": "darin@elcontraption.com",
+            "homepage": "http://elcontraption.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WpPostType\\": "lib/WpPostType"
+        }
+    }
+}
