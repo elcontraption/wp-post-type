@@ -25,7 +25,7 @@ The first argument may either be a string representing the name of the post type
 ```php
 $events = new PostType(array(
 
-    // These are required when passing an array for the first argument
+    // These are required when passing an array for the first parameter
     'singular' => 'Gallery',
     'plural' => 'Galleries',
 
@@ -35,7 +35,7 @@ $events = new PostType(array(
 ```
 
 ## Labels
-Labels are assigned based on the singular and plural names. You may override any post type label by passing an array of labels for the second argument:
+Labels are assigned based on the singular and plural names. You may override any post type label by passing an array of labels for the second parameter:
 
 ```php
 $labels = array(
@@ -48,7 +48,7 @@ $events = new PostType('event', $labels);
 ```
 
 ## Arguments
-The default WordPress post type arguments are respected, which means your custom post type will not be public by default [see defaults](https://codex.wordpress.org/Function_Reference/register_post_type#arguments). You may set your own arguments by passing an array for the third argument:
+The default WordPress post type arguments are respected, which means your custom post type will not be public by default [see defaults](https://codex.wordpress.org/Function_Reference/register_post_type#arguments). You may set your own arguments by passing an array for the third parameter:
 
 ```php
 $args = array(
