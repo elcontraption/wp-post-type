@@ -15,7 +15,7 @@ composer require elcontraption/wp-post-type
 Create an 'event' post type:
 
 ```php
-use \WpPostType\PostType;
+use \ElContraption\WpPostType\PostType;
 
 $events = new PostType('event');
 ```

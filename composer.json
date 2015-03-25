@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WpPostType\\": "lib/WpPostType"
+            "ElContraption\\WpPostType\\": "src/"
         }
     }
 }

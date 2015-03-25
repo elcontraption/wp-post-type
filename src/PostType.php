@@ -1,4 +1,4 @@
-<?php namespace WpPostType;
+<?php namespace ElContraption\WpPostType;
 
 use Exception;
 
